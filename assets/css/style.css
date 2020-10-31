@@ -40,4 +40,13 @@
     .nav-pills {
         text-align: center;
     }
+
+    .header h1 {
+        letter-spacing: 5px;
+        font-size: 280%;
+    }
+
+    .header {
+        text-align: center;
+    }
 }
