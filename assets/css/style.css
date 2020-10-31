@@ -84,6 +84,34 @@ html, body {
     margin-top: 8%;
 }
 
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+    background-color: #f0ad4e;
+    color: white;
+    border-color: transparent;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    border-radius: 0;
+
+}
+
+.input-lg {
+    font-size: 14px;
+}
+
 footer {
     color: #666;
     background-color: #222;
