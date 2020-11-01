@@ -47,8 +47,8 @@
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="films.html">Фильмы</a></li>
                 <li><a href="#">Сериалы</a></li>
-                <li><a href="rating.html">Рейтинг фильмов</a></li>
-                <li class="active"><a href="contact.html">Контакты</a></li>
+                <li class="active"><a href="rating.html">Рейтинг фильмов</a></li>
+                <li><a href="contact.html">Контакты</a></li>
               </ul>
             </div>
           </div>
@@ -77,24 +77,46 @@
                 </div>
               </form>
               <!--Контент-->
-              <h1>Контакты</h1>
+              
+              <h1>Рейтинг фильмов</h1>
               <hr>
-              <p>Отправьте ваш отзыв о портале КиноМонстр</p>
-              
-              <form>
-                  <div class="form-group">
-                      <input type="text" class="form-control input-lg" placeholder="Ваше имя">
-                  </div>
-                  <div class="form-group">
-                      <input type="text" class="form-control input-lg" placeholder="Ваш e-mail">
-                  </div>
-                  <div class="form-group">
-                      <textarea class="form-control" placeholder="Ваш отзыв"></textarea>
-                  </div>
-                  <button class="btn btn-warning btn-lg pull-right">Отправить</button>
-              </form>
-              
 
+              <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Фильм</th>
+                        <th class="text-center">Год</th>
+                        <th class="text-center">Рейтинг</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="Интерстеллар"></td>
+                        <td class="vert-align"><a href="#">Интерстеллар</a></td>
+                        <td class="text-center vert-align">2014</td>
+                        <td class="text-center vert-align"><span class="badge">8.9</span></td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="assets/img/max.png" alt="Безумный макс"></td>
+                        <td class="vert-align"><a href="#">Безумный макс</a></td>
+                        <td class="text-center vert-align">2015</td>
+                        <td class="text-center vert-align"><span class="badge">8.7</span></td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Матрица"></td>
+                        <td class="vert-align"><a href="#">Матрица</a></td>
+                        <td class="text-center vert-align">1999</td>
+                        <td class="text-center vert-align"><span class="badge">8.3</span></td>
+                    </tr>
+                    <tr>
+                        <td class="col-lg-1 col-md-1 col-xs-2"><img class="img-responsive img-thumbnail" src="assets/img/cloud.png" alt="Облачный алтас"></td>
+                        <td class="vert-align"><a href="#">Облачный алтас</a></td>
+                        <td class="text-center vert-align">2013</td>
+                        <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                    </tr>
+                </tbody>
+              </table>
                 
             </div>
 
